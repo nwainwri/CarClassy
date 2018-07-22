@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F18938EC210518E600B7F8BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F18938EB210518E600B7F8BF /* main.m */; };
+		F18938F72105192000B7F8BF /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = F18938F62105192000B7F8BF /* Car.m */; };
+		F18938FB21051D3300B7F8BF /* Toyota.m in Sources */ = {isa = PBXBuildFile; fileRef = F18938FA21051D3300B7F8BF /* Toyota.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		F18938E8210518E600B7F8BF /* CarClassy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CarClassy; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18938EB210518E600B7F8BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F18938F52105192000B7F8BF /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		F18938F62105192000B7F8BF /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		F18938F921051D3300B7F8BF /* Toyota.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Toyota.h; path = "Custom Classes/Toyota.h"; sourceTree = SOURCE_ROOT; };
+		F18938FA21051D3300B7F8BF /* Toyota.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Toyota.m; path = "Custom Classes/Toyota.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 		F18938DF210518E600B7F8BF = {
 			isa = PBXGroup;
 			children = (
+				F18938F82105192F00B7F8BF /* Custom Classes */,
 				F18938EA210518E600B7F8BF /* CarClassy */,
 				F18938E9210518E600B7F8BF /* Products */,
 			);
@@ -60,6 +67,17 @@
 				F18938EB210518E600B7F8BF /* main.m */,
 			);
 			path = CarClassy;
+			sourceTree = "<group>";
+		};
+		F18938F82105192F00B7F8BF /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F18938F921051D3300B7F8BF /* Toyota.h */,
+				F18938FA21051D3300B7F8BF /* Toyota.m */,
+				F18938F52105192000B7F8BF /* Car.h */,
+				F18938F62105192000B7F8BF /* Car.m */,
+			);
+			path = "Custom Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18938FB21051D3300B7F8BF /* Toyota.m in Sources */,
+				F18938F72105192000B7F8BF /* Car.m in Sources */,
 				F18938EC210518E600B7F8BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
